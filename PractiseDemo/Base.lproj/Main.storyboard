@@ -15,21 +15,82 @@
                         <sections>
                             <tableViewSection id="iw5-ob-eTn">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="DynamicCell" id="QQ5-0B-Kgb">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="DynamicCell" textLabel="NP3-fm-3hi" style="IBUITableViewCellStyleDefault" id="QQ5-0B-Kgb">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QQ5-0B-Kgb" id="xmw-i8-p2r">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dynamic" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUl-jR-vNn">
-                                                    <rect key="frame" x="8" y="11" width="67" height="21"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Dynamic" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NP3-fm-3hi">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=compact-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="79z-A0-bWF" kind="show" id="ovv-LA-elr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="DynamicCell" textLabel="qdY-7r-817" style="IBUITableViewCellStyleDefault" id="XhP-ke-HqD">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XhP-ke-HqD" id="Lq1-B0-6mE">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Clock" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qdY-7r-817">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=compact-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Xsl-AW-zEb" kind="show" id="6Uh-Px-7lK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="DynamicCell" textLabel="e2R-XF-paq" style="IBUITableViewCellStyleDefault" id="HM2-LP-Rpr">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HM2-LP-Rpr" id="k5s-Ix-7Yw">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="RhombusCollection" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e2R-XF-paq">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=compact-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="2iX-zK-ooe" kind="show" id="qGK-iy-la1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="DynamicCell" textLabel="ai5-Jt-n8o" style="IBUITableViewCellStyleDefault" id="Vwl-jO-kD8">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vwl-jO-kD8" id="lce-uI-nDg">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="QuartzCodeDemo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ai5-Jt-n8o">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=compact-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="rft-HN-HIq" kind="show" id="ZIB-7S-gLb"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -44,12 +105,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xxw-Wd-nvF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1882" y="1162"/>
+            <point key="canvasLocation" x="-1930.5" y="1161"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Y3-Ep-nUV">
             <objects>
-                <viewController id="79z-A0-bWF" sceneMemberID="viewController">
+                <viewController id="79z-A0-bWF" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FwP-d5-QPD"/>
                         <viewControllerLayoutGuide type="bottom" id="tOJ-eU-zRE"/>
@@ -59,11 +120,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ykY-CO-7j6">
-                                <rect key="frame" x="270" y="269" width="61" height="61"/>
+                                <rect key="frame" x="258" y="258" width="83" height="83"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PAq-iv-uAV">
+                                        <rect key="frame" x="18" y="28" width="47" height="28"/>
+                                        <color key="backgroundColor" red="0.84705882349999995" green="0.72941176470000002" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="47" id="Tqi-ha-haK"/>
+                                            <constraint firstAttribute="height" constant="28" id="Zyb-lp-sEu"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.20851490289999999" blue="0.33203321720000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="61" id="tKy-bW-Tuf"/>
-                                    <constraint firstAttribute="height" constant="61" id="zeS-lR-vD9"/>
+                                    <constraint firstAttribute="height" constant="83" id="0Xa-Ns-p6W"/>
+                                    <constraint firstItem="PAq-iv-uAV" firstAttribute="centerX" secondItem="ykY-CO-7j6" secondAttribute="centerX" id="5o1-aq-wUl"/>
+                                    <constraint firstAttribute="width" constant="83" id="7fV-LG-kJT"/>
+                                    <constraint firstAttribute="centerY" secondItem="PAq-iv-uAV" secondAttribute="centerY" id="SOH-9a-iIo"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -73,15 +146,19 @@
                             <constraint firstAttribute="centerY" secondItem="ykY-CO-7j6" secondAttribute="centerY" id="aSf-tY-vZV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="smallSquare" destination="PAq-iv-uAV" id="0cA-d8-a2J"/>
+                        <outlet property="square" destination="ykY-CO-7j6" id="GnG-0k-krP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBt-0d-K2H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1070" y="1162"/>
         </scene>
-        <!--View Controller-->
+        <!--Clock View Controller-->
         <scene sceneID="WvO-SM-mla">
             <objects>
-                <viewController id="Xsl-AW-zEb" sceneMemberID="viewController">
+                <viewController id="Xsl-AW-zEb" customClass="ClockViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NbH-ky-MC8"/>
                         <viewControllerLayoutGuide type="bottom" id="tYU-Bv-I0E"/>
@@ -95,6 +172,133 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o35-Dp-MPy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1070" y="1873"/>
+        </scene>
+        <!--Quartz Code View Controller-->
+        <scene sceneID="gvo-bm-L5K">
+            <objects>
+                <viewController id="rft-HN-HIq" customClass="QuartzCodeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cl0-wc-14x"/>
+                        <viewControllerLayoutGuide type="bottom" id="QBi-Sb-yA2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vtd-ag-Asj">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xq9-zB-bTT">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="ArrowToClose">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="331" width="96" height="30"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="102" width="96" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="ArrowToClose:" destination="rft-HN-HIq" eventType="touchUpInside" id="U79-WE-hY0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ep-Bg-nEP">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="CloseToArrow">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="446" width="96" height="30"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="140" width="96" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="CloseToArray:" destination="rft-HN-HIq" eventType="touchUpInside" id="NP5-gO-k3c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFx-rK-6n3">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="DisplayClose">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="407" width="90" height="30"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="178" width="90" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="DisplayClose:" destination="rft-HN-HIq" eventType="touchUpInside" id="BmA-mM-Dm3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1d-UV-in0">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="CloseToFail">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="45" y="369" width="79" height="30"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="64" width="79" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="CloseToFail:" destination="rft-HN-HIq" eventType="touchUpInside" id="TXu-Lb-STO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMd-J2-OgA">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="FailToClose">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="45" y="484" width="79" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="FailToClose:" destination="rft-HN-HIq" eventType="touchUpInside" id="foL-Vc-yFA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="xq9-zB-bTT"/>
+                                <exclude reference="1ep-Bg-nEP"/>
+                                <exclude reference="NFx-rK-6n3"/>
+                                <exclude reference="U1d-UV-in0"/>
+                                <exclude reference="KMd-J2-OgA"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="xq9-zB-bTT"/>
+                                <include reference="1ep-Bg-nEP"/>
+                                <include reference="NFx-rK-6n3"/>
+                                <include reference="U1d-UV-in0"/>
+                                <include reference="KMd-J2-OgA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mhq-Ws-I6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1930.5" y="2487"/>
+        </scene>
+        <!--Rhombus View Controller-->
+        <scene sceneID="dAB-nz-GUp">
+            <objects>
+                <viewController id="2iX-zK-ooe" customClass="RhombusViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rv4-yw-tx2"/>
+                        <viewControllerLayoutGuide type="bottom" id="P0o-mB-MVF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hjy-eD-KHb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oL5-Eh-NIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1065" y="2589"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="E8P-0i-0jq">

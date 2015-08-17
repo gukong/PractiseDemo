@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7709A1A51B5695830033A0B3 /* RhombusViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7709A1A41B5695830033A0B3 /* RhombusViewLayout.m */; };
+		7709A1A81B56959C0033A0B3 /* RhombusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7709A1A71B56959C0033A0B3 /* RhombusCell.m */; };
+		775F9A5E1B569205007E88C6 /* RhombusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F9A5D1B569205007E88C6 /* RhombusViewController.m */; };
 		7781D7EC1B4D9BCA00D1DBA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7781D7EB1B4D9BCA00D1DBA7 /* main.m */; };
 		7781D7EF1B4D9BCA00D1DBA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7781D7EE1B4D9BCA00D1DBA7 /* AppDelegate.m */; };
 		7781D7F21B4D9BCA00D1DBA7 /* PractiseDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7781D7F01B4D9BCA00D1DBA7 /* PractiseDemo.xcdatamodeld */; };
@@ -16,6 +19,14 @@
 		7781D7FD1B4D9BCA00D1DBA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7781D7FB1B4D9BCA00D1DBA7 /* LaunchScreen.xib */; };
 		7781D8091B4D9BCA00D1DBA7 /* PractiseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7781D8081B4D9BCA00D1DBA7 /* PractiseDemoTests.m */; };
 		7781D8141B4D9CF600D1DBA7 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7781D8131B4D9CF600D1DBA7 /* RootTableViewController.m */; };
+		779EDC821B5245B100EAE9E8 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779EDC811B5245B100EAE9E8 /* ClockViewController.m */; };
+		779EDC861B52476400EAE9E8 /* ClockDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 779EDC851B52476400EAE9E8 /* ClockDataModel.m */; };
+		779EDC891B5247AB00EAE9E8 /* ClockCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 779EDC881B5247AB00EAE9E8 /* ClockCollectionView.m */; };
+		779EDC8C1B524A9000EAE9E8 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 779EDC8B1B524A9000EAE9E8 /* ClockView.m */; };
+		779EDC901B525BB900EAE9E8 /* ClockCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 779EDC8F1B525BB900EAE9E8 /* ClockCollectionCell.m */; };
+		77EAE5471B6DCEB800D7395D /* QuartzCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAE5461B6DCEB800D7395D /* QuartzCodeViewController.m */; };
+		77EAE54C1B6DCEE500D7395D /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAE5491B6DCEE500D7395D /* ArrowView.m */; };
+		77EAE54D1B6DCEE500D7395D /* QCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAE54B1B6DCEE500D7395D /* QCMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7709A1A31B5695830033A0B3 /* RhombusViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhombusViewLayout.h; sourceTree = "<group>"; };
+		7709A1A41B5695830033A0B3 /* RhombusViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RhombusViewLayout.m; sourceTree = "<group>"; };
+		7709A1A61B56959C0033A0B3 /* RhombusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhombusCell.h; sourceTree = "<group>"; };
+		7709A1A71B56959C0033A0B3 /* RhombusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RhombusCell.m; sourceTree = "<group>"; };
+		775F9A5C1B569205007E88C6 /* RhombusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhombusViewController.h; sourceTree = "<group>"; };
+		775F9A5D1B569205007E88C6 /* RhombusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RhombusViewController.m; sourceTree = "<group>"; };
 		7781D7E61B4D9BCA00D1DBA7 /* PractiseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PractiseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7781D7EA1B4D9BCA00D1DBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7781D7EB1B4D9BCA00D1DBA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +62,23 @@
 		7781D8081B4D9BCA00D1DBA7 /* PractiseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PractiseDemoTests.m; sourceTree = "<group>"; };
 		7781D8121B4D9CF600D1DBA7 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
 		7781D8131B4D9CF600D1DBA7 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		779EDC801B5245B100EAE9E8 /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		779EDC811B5245B100EAE9E8 /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		779EDC841B52476400EAE9E8 /* ClockDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockDataModel.h; sourceTree = "<group>"; };
+		779EDC851B52476400EAE9E8 /* ClockDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockDataModel.m; sourceTree = "<group>"; };
+		779EDC871B5247AB00EAE9E8 /* ClockCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockCollectionView.h; sourceTree = "<group>"; };
+		779EDC881B5247AB00EAE9E8 /* ClockCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockCollectionView.m; sourceTree = "<group>"; };
+		779EDC8A1B524A9000EAE9E8 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		779EDC8B1B524A9000EAE9E8 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		779EDC8D1B524B1F00EAE9E8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		779EDC8E1B525BB900EAE9E8 /* ClockCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockCollectionCell.h; sourceTree = "<group>"; };
+		779EDC8F1B525BB900EAE9E8 /* ClockCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockCollectionCell.m; sourceTree = "<group>"; };
+		77EAE5451B6DCEB800D7395D /* QuartzCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzCodeViewController.h; sourceTree = "<group>"; };
+		77EAE5461B6DCEB800D7395D /* QuartzCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzCodeViewController.m; sourceTree = "<group>"; };
+		77EAE5481B6DCEE500D7395D /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
+		77EAE5491B6DCEE500D7395D /* ArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowView.m; sourceTree = "<group>"; };
+		77EAE54A1B6DCEE500D7395D /* QCMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCMethod.h; sourceTree = "<group>"; };
+		77EAE54B1B6DCEE500D7395D /* QCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +99,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		775F9A5B1B5691D5007E88C6 /* RhombusCollection */ = {
+			isa = PBXGroup;
+			children = (
+				775F9A5C1B569205007E88C6 /* RhombusViewController.h */,
+				775F9A5D1B569205007E88C6 /* RhombusViewController.m */,
+				7709A1A31B5695830033A0B3 /* RhombusViewLayout.h */,
+				7709A1A41B5695830033A0B3 /* RhombusViewLayout.m */,
+				7709A1A61B56959C0033A0B3 /* RhombusCell.h */,
+				7709A1A71B56959C0033A0B3 /* RhombusCell.m */,
+			);
+			name = RhombusCollection;
+			sourceTree = "<group>";
+		};
 		7781D7DD1B4D9BCA00D1DBA7 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +144,9 @@
 				7781D7FB1B4D9BCA00D1DBA7 /* LaunchScreen.xib */,
 				7781D7F01B4D9BCA00D1DBA7 /* PractiseDemo.xcdatamodeld */,
 				7781D7E91B4D9BCA00D1DBA7 /* Supporting Files */,
+				779EDC831B52465F00EAE9E8 /* Clock */,
+				775F9A5B1B5691D5007E88C6 /* RhombusCollection */,
+				77EAE5441B6DCE8800D7395D /* QuartzCodeDemo */,
 			);
 			path = PractiseDemo;
 			sourceTree = "<group>";
@@ -106,6 +156,7 @@
 			children = (
 				7781D7EA1B4D9BCA00D1DBA7 /* Info.plist */,
 				7781D7EB1B4D9BCA00D1DBA7 /* main.m */,
+				779EDC8D1B524B1F00EAE9E8 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,6 +176,36 @@
 				7781D8071B4D9BCA00D1DBA7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		779EDC831B52465F00EAE9E8 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				779EDC801B5245B100EAE9E8 /* ClockViewController.h */,
+				779EDC811B5245B100EAE9E8 /* ClockViewController.m */,
+				779EDC841B52476400EAE9E8 /* ClockDataModel.h */,
+				779EDC851B52476400EAE9E8 /* ClockDataModel.m */,
+				779EDC871B5247AB00EAE9E8 /* ClockCollectionView.h */,
+				779EDC881B5247AB00EAE9E8 /* ClockCollectionView.m */,
+				779EDC8A1B524A9000EAE9E8 /* ClockView.h */,
+				779EDC8B1B524A9000EAE9E8 /* ClockView.m */,
+				779EDC8E1B525BB900EAE9E8 /* ClockCollectionCell.h */,
+				779EDC8F1B525BB900EAE9E8 /* ClockCollectionCell.m */,
+			);
+			name = Clock;
+			sourceTree = "<group>";
+		};
+		77EAE5441B6DCE8800D7395D /* QuartzCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				77EAE5481B6DCEE500D7395D /* ArrowView.h */,
+				77EAE5491B6DCEE500D7395D /* ArrowView.m */,
+				77EAE54A1B6DCEE500D7395D /* QCMethod.h */,
+				77EAE54B1B6DCEE500D7395D /* QCMethod.m */,
+				77EAE5451B6DCEB800D7395D /* QuartzCodeViewController.h */,
+				77EAE5461B6DCEB800D7395D /* QuartzCodeViewController.m */,
+			);
+			name = QuartzCodeDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,11 +308,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				779EDC8C1B524A9000EAE9E8 /* ClockView.m in Sources */,
 				7781D8141B4D9CF600D1DBA7 /* RootTableViewController.m in Sources */,
+				779EDC901B525BB900EAE9E8 /* ClockCollectionCell.m in Sources */,
+				779EDC861B52476400EAE9E8 /* ClockDataModel.m in Sources */,
+				7709A1A81B56959C0033A0B3 /* RhombusCell.m in Sources */,
+				77EAE54C1B6DCEE500D7395D /* ArrowView.m in Sources */,
 				7781D7EF1B4D9BCA00D1DBA7 /* AppDelegate.m in Sources */,
+				779EDC891B5247AB00EAE9E8 /* ClockCollectionView.m in Sources */,
 				7781D7F21B4D9BCA00D1DBA7 /* PractiseDemo.xcdatamodeld in Sources */,
+				779EDC821B5245B100EAE9E8 /* ClockViewController.m in Sources */,
+				77EAE54D1B6DCEE500D7395D /* QCMethod.m in Sources */,
+				775F9A5E1B569205007E88C6 /* RhombusViewController.m in Sources */,
 				7781D7F51B4D9BCA00D1DBA7 /* ViewController.m in Sources */,
 				7781D7EC1B4D9BCA00D1DBA7 /* main.m in Sources */,
+				77EAE5471B6DCEB800D7395D /* QuartzCodeViewController.m in Sources */,
+				7709A1A51B5695830033A0B3 /* RhombusViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +449,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PractiseDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = PractiseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +461,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PractiseDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = PractiseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +522,7 @@
 				7781D80E1B4D9BCA00D1DBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7781D80F1B4D9BCA00D1DBA7 /* Build configuration list for PBXNativeTarget "PractiseDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +531,7 @@
 				7781D8111B4D9BCA00D1DBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
